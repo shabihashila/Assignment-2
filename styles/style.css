@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+ }
+ body{
+    margin: 0%;
+    padding:0%;
+    font-family:"Inter", sans-serif;
+}
+/* Header size and  gradient color */
+
+.Care-of-border{
+    max-width:1536px;
+    height:auto;
+    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0.95) 95%);
+    color: white;
+}
+.container{
+    margin-top:20px ;
+    margin-bottom:24px ;
+    margin-left: 150px;
+    margin-right:150px ;
+}
+.oranged-color{
+background: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+padding: 8px 20px 8px 20px;
+border-radius: 46px;
+position: relative;
+right:-26px;
+}
+.Banner{justify-content: space-between;
+    display: flex;
+
+}
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.nav-bar a:hover{
+    background-color: rgb(85, 88, 88);
+    color: rgb(31, 3, 27);
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar ol{
+    display: flex;
+    gap:36px;
+}
+    
+
+
+/* header{
+    max-width:1904px;
+    height:auto;
+    background-color: rgb(255, 210, 226);
+    justify-items:center;
+    margin:0px 0px;
+    padding-bottom:15px;
+} */
+/* .container{
+    max-width: 1870px;
+    width:auto;
+    margin-top:60px;
+    margin-left:120px;
+    margin-right:120px;
+} */
+
+
+  
