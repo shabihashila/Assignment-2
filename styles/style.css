@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama-nueva');
+   
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -8,43 +10,53 @@
   font-variation-settings:
     "slnt" 0;
  }
- body{
+
+body{
     margin: 0%;
     padding:0%;
     font-family:"Inter", sans-serif;
 }
-/* Header size and  gradient color */
-
-.Care-of-border{
-    max-width:1536px;
-    height:auto;
-    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(17, 17, 17, 0.95) 95%);
-    color: white;
-}
+/* This is a very important class which i use every section */
+/* all section use this max-width */
+.Care-of-border {
+        max-width: 1536px;
+        height: auto;
+        background: linear-gradient(180deg, rgb(17, 17, 17) 0%, rgba(34, 34, 34, 7) 50%, black 100%);
+        color: white;
+    }
+/* all section use this container,important */
+/* margin-padding all section use */
 .container{
-    margin-top:20px ;
-    margin-bottom:24px ;
+    margin-top:10px;
+    margin-bottom:20px ;
     margin-left: 150px;
     margin-right:150px ;
 }
-.oranged-color{
-background: rgb(230, 83, 60);
-font-family: Inter;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-padding: 8px 20px 8px 20px;
-border-radius: 46px;
-position: relative;
-right:-26px;
-}
-.Banner{justify-content: space-between;
+.Banner{
     display: flex;
-
+    justify-content: space-between; 
 }
+/* just Nav part stayed here */
 .Navigation{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top:38px;
+}
+/* Navigation part design */
+
+.Navigation h2{
+    /* Fitness design */
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+    position: relative;
+    top:-22px;
 }
 .nav-bar a{
     text-decoration: none;
@@ -54,6 +66,7 @@ right:-26px;
     font-weight: 600;
     line-height: 22px;
 }
+/* This is a special beautiful thing which i use */
 .nav-bar a:hover{
     background-color: rgb(85, 88, 88);
     color: rgb(31, 3, 27);
@@ -63,26 +76,191 @@ right:-26px;
 }
 .nav-bar ol{
     display: flex;
+    justify-content: space-between;
     gap:36px;
+    position:absolute;
+    right:33px;
+    top:-3.45px;
 }
-    
+/*'home,service,contact,about' whole part is cntrl */
+.nav-bar{
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+position: relative;
+right:-45px;
+width: 440px;
+height: 46px;
+}
+/* Navigation part-'Home'Design */
+.oranged-color{
+    /* 'Home'design */
+    background: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px 22px 9px 23px;
+    border-radius: 46px;
+    position: relative;
+    right:-26px;
+}
+/* Rare font-family which i use[shape]in 
+'header-content-part'class [get body..]*/
+ .special-font{                                                                       font-family: 'Miama Nueva', sans-serif;
+    font-family: 'Miama Nueva', sans-serif;                                      
+ } 
+ .header-content-part{
+    padding-top:20px; 
+ } 
+ .header-content-part h1{
+    font-family:"Inter", sans-serif;
+    Font-weight: 900;
+    Font-size: 78px;
+    Row-height:1px;
+    Letter-spacing:0%;
+    color: rgb(255, 255, 255);
+ }
+.header-content-part p{
+    position: relative;
+    top:-16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom:10px;
+}
+/*Button,use Orange BG-color.'join club now!'design
+which is the part of header-content-part*/
+.color-button{
+    /* 'join club now!'-Button */
+    background-color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left: 35px;
+    padding-right:35px;
+    border-radius:45px;
+    color:white;
+    border: 1px solid rgb(230, 83, 60);
+    margin-top: 20px;  
+}
+/* Another Button part similar as'join club now'button.
+ which is also the part of 'header-content-part'*/
+.simple-button{
+    /* 'Download App' design */
+    background-color: rgb(20, 19, 19);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left: 35px;
+    padding-right:35px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    margin-left:13px;
+    margin-top: 20px;
+}
+/*Another part of banner class,in this case,the 
+grandparent is'image-sub-button'.the grandparent has
+3 part,1)img,2)sub-button500.3)sub-button350*/
 
-
-/* header{
-    max-width:1904px;
-    height:auto;
-    background-color: rgb(255, 210, 226);
-    justify-items:center;
-    margin:0px 0px;
-    padding-bottom:15px;
-} */
-/* .container{
-    max-width: 1870px;
+/*2nd part of banner class,its mainly image+card section */
+.image-sub-button{
+    position: relative;
+}
+/* gentlemen-image of right part */
+.image-sub-button img{
     width:auto;
-    margin-top:60px;
-    margin-left:120px;
-    margin-right:120px;
-} */
+    height:610px;
+}
+/* two card-type button,one of them is'sub-button500' */
+.sub-button500 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    backdrop-filter: blur(5px); 
+    background: rgba(48, 48, 48, 0.54);
+    padding:1px 43px;
+    color: white; 
+    position: absolute;
+    right:-70px;
+    top:140px;
+    height: 100px;
+    text-align: left;
+}
+/* diff part of sub-button500 main part"image-sub-button" */
+.sub-button500 p{
+    position: absolute;
+    top:-10px;
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    top:55px;
+}
+.sub-button500 h1{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 900;
+    position:relative;
+    top:-14px;
+}
+/* two card-type button,another one is'sub-button350' */
+.sub-button350{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    backdrop-filter: blur(5px); 
+    background: rgba(48, 48, 48, 0.54);
+    color: white; 
+    position: relative;
+    right: 160px;
+     bottom: 170px;
+    width: 245px;
+    height: 100px;
+}
+.sub-button350 h1{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+.sub-button350 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    bottom:15px;
+}
+/* this is the part of 'sub-button350'.it's mainly
+h1,p content part */
+.part-of-sub-button{
+   margin-left: 50px;
+   margin-right:50px;
+   position: relative;
+   left:30px;
+   top:-8px
+}
+/* this is the part of 'sub-button350'.it's mainly
+round box(color orange)part */
+.rounded-box {
+    width: 50px; 
+    height: 50px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 100%; 
+    position: absolute;
+    right:160px;
+    bottom: 24px;
+}
+/* Banner part,navigation part done */
+
+
+
+
 
 
   
