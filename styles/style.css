@@ -10,7 +10,6 @@
   font-variation-settings:
     "slnt" 0;
  }
-
 body{
     margin: 0%;
     padding:0%;
@@ -27,8 +26,6 @@ body{
 /* all section use this container,important */
 /* margin-padding all section use */
 .container{
-    margin-top:10px;
-    margin-bottom:20px ;
     margin-left: 150px;
     margin-right:150px ;
 }
@@ -257,6 +254,522 @@ round box(color orange)part */
     bottom: 24px;
 }
 /* Banner part,navigation part done */
+
+/* after 1 days ,start section2 part */
+.container2{   
+    margin-top:10px;
+    margin-bottom:20px ;
+    margin-left: 150px;
+    margin-right:150px ;
+}
+.section2{
+   position: relative;
+   top:-127px;
+   background-color: black;
+}
+.Care-of-border2{
+max-width: 1536px;
+height: auto;
+background-color: rgb(10, 10, 10);
+color: white;
+}
+.part2-content{
+    text-align: center;
+    padding-top:65px;
+    padding-bottom:42px;
+    position: relative;
+}
+.part2-content h1{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+}
+.part2-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    position: relative;
+    top:-18px;
+}
+.part2-img{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    position: relative;
+    top:-40px;
+    margin-bottom:px;
+}
+.part2-img img{
+    height:56%;
+    width:56%;
+    border-radius:50%;
+    border:3px solid rgb(80, 76, 76);
+}
+.part2-img h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.part2-img p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+justify-content: baseline;
+}
+.container3{   
+    margin-top:20px;
+    margin-bottom:20px ;
+    margin-left: 150px;
+    margin-right:150px ;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.Run-image img{
+    width:366px;
+    height:312px;
+    border-radius:20px;
+    margin-top:11px;
+    margin-bottom:11px;
+    margin-right: 11px;
+}
+.section3{
+  padding-left:30px;
+  padding-right:23px;
+  padding-top:23px;
+  padding-bottom:23px;
+}
+.run-content{
+    display: flex;
+    justify-content:space-between;
+}
+.content3 {
+    margin-left:25px;
+}
+.content3 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: left;
+}
+.content3 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top:-18px;
+}
+.content3 button{
+    background-color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left: 48px;
+    padding-right:48px;
+    border-radius:46px;
+    color:white;
+    border: 1px solid rgb(230, 83, 60);
+    margin-top: 20px;  
+    position: relative;
+    top:-14px;
+}
+.BMI-calculator{
+    text-align: left;
+    margin-top: 85px;
+    position: relative;
+    left:191px;
+    position: relative;
+}
+.BMI-calculator h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+.BMI-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    top:-26px;
+    padding-bottom:60px;
+}
+.container4{     
+        margin-top:20px;
+        margin-bottom:20px ;
+        margin-left: 150px;
+        margin-right:150px ;
+        border-radius: 18px;
+        color: azure;
+}
+.Care-of-border3{
+    max-width: 1536px;
+    height: auto;
+    background: linear-gradient(90deg, rgb(67, 65, 65) 1%, rgba(34, 34, 34, 1) 69%, rgb(21, 19, 19) 97%);
+    color: white;
+}
+.head-of-BMI{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:-147px
+}
+.BMI-calculator-chart{
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+table{
+    width: 310px;
+    height: 210px;
+    border-collapse: collapse;
+    border-radius: 10%;
+}
+th,td{
+    border: 1px solid rgb(106, 104, 104);
+    padding:10px 33px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+thead,th{
+    position: relative;
+    left:1px;
+    color: rgb(220, 215, 215);
+}
+tr,td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.BMI-calculator-chart caption{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+text-align: left;
+padding-bottom: 50px;
+padding-top: 10px;
+}
+.calculate-your-BMI{
+    position: relative;
+    top:39px;
+}
+
+.content4 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content4 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    padding-bottom:14px;
+    position: relative;
+    top:-5px;
+}
+.head-of-box{
+    position: relative;
+    top:-10px;
+}
+.selector-box{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 17px;
+    padding-top:24px;
+    padding-bottom:20px;
+}
+.selector-box1{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    gap: 17px;
+    padding-bottom:20px;
+}
+.Height input{
+width: 282.5px;
+height: 52px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(124, 120, 120, 0.2);
+color: rgba(255, 255, 255, 0.9);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding-left:10px;
+}
+.weight input{
+width: 282.5px;
+height: 52px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(124, 120, 120, 0.2);
+color: rgba(255, 255, 255, 0.9);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding-left:10px;
+}
+.age input{
+    width: 282.5px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(124, 120, 120, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left:10px;
+    position:relative;
+    left:1.5px;
+}
+.gender select{
+width: 299.5px;
+height: 54px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(124, 120, 120, 0.2);
+color: rgba(255, 255, 255, 0.9);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding-left:10px;
+color: rgb(187, 184, 184);
+position: relative;
+left:1.5px;
+}
+.Acitivy-factor select{
+width: 616px;
+height: 52px;
+text-align: left;
+padding: 12px 20px 12px 20px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(124, 120, 120, 0.2);
+color: rgba(255, 255, 255, 0.9);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding-left:10px;
+color: rgb(187, 184, 184);
+padding-bottom: 20px;
+}
+.head-of-box button{
+    background-color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 550;
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left: 45px;
+    padding-right:45px;
+    border-radius:45px;
+    color:white;
+    border: 1px solid rgb(230, 83, 60);
+    margin-top:40px;  
+    margin-bottom:76px;
+}
+/* end */
+.Care-of-border12{
+    max-width: 1536px;
+    height: auto;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    position: relative;
+    top:-14px;
+    }
+.written-content5{
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:25px;
+}
+.content5{
+padding-bottom: 78px;
+}
+.Care-of-border12{
+    position: relative;
+    top:-150px;
+}
+.written-content5 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.written-content5 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border:0px solid rgb(32, 30, 30);
+    border-radius:16px; 
+}
+.Trainer{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding:7px;
+padding-bottom: 14px;
+border:10px solid rgb(99, 99, 105);
+border-radius: 12px;
+grid-column-gap:15px;
+grid-row-gap:15px;
+background-color: rgb(99, 99, 105);
+padding-bottom:4px;
+margin-bottom: 100px;
+}
+.img1{
+    position: relative;
+}
+.img1-content{
+    position: absolute;
+    bottom:6%;
+    left:6%;
+}
+* FOOTER✅✅✅ */
+.footer {
+  margin-top: 9rem;
+  background-color: rgba(77, 77, 77, 0.2);
+  border-radius: 1.6rem;
+}
+ 
+.footer-contents {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  align-items: center;
+  justify-items: center;
+  padding: 4rem 2rem;
+}
+ 
+.logo-col h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+}
+ 
+.logo-col p {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  width: 95%;
+}
+ 
+.nav-col h5 {
+  font-size: 2.2rem;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+ 
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+ 
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #4e4a4a;
+  transition: all 0.3s;
+}
+ 
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #b8b8b8;
+}
+.Care-of-border22{
+    max-width: 1536px;
+height: auto;
+background-color: rgb(44, 42, 42);
+color: white;
+position: relative;
+top:-160px;
+}
+ 
+.copyright p {
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: rgba(255, 255, 255, 0.6);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding: 3rem 0;
+}
+/* ⛔️⛔️⛔️ */
+
+
+
+
+
 
 
 
